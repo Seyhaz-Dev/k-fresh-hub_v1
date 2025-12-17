@@ -15,11 +15,10 @@
 
   
    <div class="logo">
-  <a href="<?php echo home_url('/'); ?>">
-   <img 
-  src="<?php echo get_template_directory_uri(); ?>/assets/images/K.f.webp" alt="Fresh Logo">
-
-  </a>
+      <a href="<?php echo home_url('/'); ?>">
+     <img 
+         src="<?php echo get_template_directory_uri(); ?>/assets/images/K.f.webp" alt="Fresh Logo">
+     </a>
 </div>
 
 
@@ -63,6 +62,9 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
+
+
+
 
 </body>
 </html>
